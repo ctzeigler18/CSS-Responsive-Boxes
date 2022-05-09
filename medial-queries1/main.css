@@ -1,18 +1,30 @@
 body {
   background: blanchedalmond;
 }
-.a{
+
+.container {
+  border: 25px solid black;
+  display: flex;
+}
+
+.a {
   background-color: red;
-  min-height:20px;
-  max-width: 20px;
+  min-height: 200px;
+  min-width: 200px;
+  
 }
-.b{
+
+.b {
   background-color: green;
-  min-height:20px;
-  max-width: 20px;
+  min-height: 200px;
+  min-width: 200px;
+  
+
 }
-.c{
+
+.c {
   background-color: blue;
-  min-height:20px;
-  max-width: 20px;
+  min-height: 200px;
+  min-width: 200px;
 }
+  
