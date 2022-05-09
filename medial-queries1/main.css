@@ -5,26 +5,25 @@ body {
 .container {
   border: 25px solid black;
   display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .a {
   background-color: red;
-  min-height: 200px;
-  min-width: 200px;
-  
+  flex-grow: 2;
+  border: 25px solid black;
 }
 
 .b {
   background-color: green;
-  min-height: 200px;
-  min-width: 200px;
-  
-
+  flex-grow: 5;
+  border: 25px solid black;
 }
 
 .c {
   background-color: blue;
-  min-height: 200px;
-  min-width: 200px;
+  flex-grow: 2;
+  border: 25px solid black;
 }
-  
